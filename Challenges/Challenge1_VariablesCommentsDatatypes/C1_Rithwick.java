@@ -16,6 +16,13 @@ public class C1_Rithwick
     // int i = sc.nextInt();
     // double d = sc.nextDouble();
 
+    
+    
+    /**
+     * sa2d2l k4fjaslkdf
+     * '2' != 2
+     * Integer.parseInt(sa2d2l) => characters=> numbers
+     */
     public static void main(String args[])
     {  
         //Get ready for first input
@@ -24,7 +31,8 @@ public class C1_Rithwick
         System.out.println("Enter 1 for Addition, 2 for Substraction, 3 for Multiplication, 4 for Disvison, or 5 for Remainder");
         int operator = first.nextInt();
         //Checks what operator is selected
-        if (operator == 1) {
+        if (operator == 1) 
+        {
             System.out.println("You have picked Addition");
             Scanner num1 = new Scanner(System.in);
             // Asks what first number is desired
@@ -38,7 +46,8 @@ public class C1_Rithwick
             int operator4 = operator2 + operator3;
             //Shows Output
             System.out.println("Your Sum is " + operator4);
-        } else if (operator == 2) {
+        } else if (operator == 2) 
+        {
             System.out.println("You have picked Substraction");
             Scanner num1 = new Scanner(System.in);
             // Asks what first number is desired
@@ -53,7 +62,8 @@ public class C1_Rithwick
             //Shows Output
             System.out.println("Your Diffrence is " + operator4);
         }
-        else if (operator == 3) {
+        else if (operator == 3) 
+        {
             System.out.println("You have picked Multiplication");
             Scanner num1 = new Scanner(System.in);
             // Asks what first number is desired
@@ -68,7 +78,8 @@ public class C1_Rithwick
             //Shows Output
             System.out.println("Your Product is " + operator4);
         }
-        else if (operator == 4) {
+        else if (operator == 4) 
+        {
             System.out.println("You have picked Disvison");
             Scanner num1 = new Scanner(System.in);
             // Asks what first number is desired
@@ -101,6 +112,5 @@ public class C1_Rithwick
             System.out.println("Try again but only enter 1,2,3,4,or 5 next time");
         }
 
-    
     }
 }

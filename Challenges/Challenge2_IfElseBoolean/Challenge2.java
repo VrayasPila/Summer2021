@@ -1,5 +1,6 @@
 package Challenges.Challenge2_IfElseBoolean;
 
+import java.util.Scanner;
 
 /**
  * Since this challenge has multiple level, you can submit multiple files or the same file with clearly labeled parts for what code does what
@@ -19,6 +20,21 @@ public class Challenge2
 {
     public static void main(String args[])
     {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Select a number");
+        int Num1 = sc.nextInt();
+        System.out.println("Select another number");
+        int Num2 = sc.nextInt();
         
+        if( Num1 % Num2 <= 0)
+        {
+            System.out.println(Num1 + " divisible by " + Num2);
+            
+        }
+        else
+        {
+            System.out.println(Num1 + " is not divisable by " + Num2);
+
+        }
     }
-}
+}        

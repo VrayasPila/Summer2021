@@ -1,4 +1,4 @@
-package Summer2021;
+ 
 import java.util.*;
 
 /**
@@ -18,17 +18,18 @@ import java.util.*;
 public class Challenge2_Divisible_Rithik
 {
     public static void main(String args[])
-    {Scanner sc = new Scanner(System.in);
-    System.out.println("Select a number");
-    int num1 = sc.nextInt();
-    System.out.println("Select another number");
-    int num2 = sc.nextInt();
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Select a number");
+        int num1 = sc.nextInt();
+        System.out.println("Select another number");
+        int num2 = sc.nextInt();
     //variable assignment
     
     if (num1%num2 == 0)
-    System.out.println("These two numbers are divisible");
+        System.out.println("These two numbers are divisible");      
     else 
-    System.out.println("These two numbers are not divisible");
+        System.out.println("These two numbers are not divisible");
     // Conditions for input
     }
 }

@@ -2,7 +2,6 @@ package Summer2021.Challenges.Challenge2_IfElseBoolean;
 
 import java.util.Scanner;
 
-
 /**
  * Since this challenge has multiple level, you can submit multiple files or the same file with clearly labeled parts for what code does what
  * 
@@ -32,12 +31,12 @@ public class C2_3_Rithwick
         int operator3 = operator2 - 1;
         int operator4 = 1;
         while (operator2 != operator4) {
-             if (operator % operator4 == 0) {
-  System.out.println(operator + " is divisible by " + operator4);
-} else {
-  System.out.println(operator + " is not divisible by " + operator4);
-}
-operator4 = operator4 + 1;
+            if (operator % operator4 == 0) {
+                System.out.println(operator + " is divisible by " + operator4);
+            } else {
+                System.out.println(operator + " is not divisible by " + operator4);
+            }
+            operator4 = operator4 + 1;
         }
         System.out.println("Program is finished");
     }

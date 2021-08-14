@@ -1,4 +1,4 @@
-package Challenges.Challenge1_VariablesCommentsDatatypes;
+package Summer2021.Challenges.Challenge1_VariablesCommentsDatatypes;
 
 /**
  * Level 1: Write a program that accepts 2 numbers from the user and calculates

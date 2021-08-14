@@ -1,4 +1,4 @@
-package Challenges.Challenge3_Loops;
+package Summer2021.Challenges.Challenge3_Loops;
 
 
 /**

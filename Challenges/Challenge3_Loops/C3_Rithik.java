@@ -1,4 +1,6 @@
 package Summer2021.Challenges.Challenge3_Loops;
+import java.util.*;
+import java.util.Scanner; 
 
 
 /**
@@ -28,29 +30,36 @@ package Summer2021.Challenges.Challenge3_Loops;
        
  * (Optional) C3.3: TBA
  */
-public class Challenge3
+public class C3_Rithik
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Challenge3
-     */
-    public Challenge3()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+ public static void main(String args[])
+    {Scanner sc = new Scanner(System.in);  
+   
+    System.out.println("Pick a number");
+    int num1 = sc.nextInt();
+    System.out.println("Pick another number");
+    int num2 = sc.nextInt();
+    System.out.print("Pick your operator: +, -, *, /, %");
+    String operator = sc.next();
+    switch(operator){
+        case "+":
+        System.out.println(num1 + num2);
+        break;
+       
+        case"-":
+        System.out.println(num1 - num2);
+        break;
+       
+        case"*":
+        System.out.println(num1 * num2);
+        break;
+       
+        case"/":
+        System.out.println(num1 / num2);
+        break;
+       
+        case"%":
+        System.out.println(num1 % num2);
+        break;
+    
 }

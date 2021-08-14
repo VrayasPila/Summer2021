@@ -1,4 +1,4 @@
-package Day2;
+package Summer2021.Day2;
 
 // This code explains what datatypes are
 /**

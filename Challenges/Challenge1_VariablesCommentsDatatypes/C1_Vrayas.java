@@ -1,4 +1,4 @@
-package Summer2021.Challenges.Challenge1_VariablesCommentsDatatypes;
+package Challenges.Challenge1_VariablesCommentsDatatypes;
 
 
 /**

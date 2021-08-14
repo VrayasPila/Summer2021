@@ -1,4 +1,4 @@
-package Summer2021.Day3_ConditionalsIncrementDecrement;
+package Day3_ConditionalsIncrementDecrement;
 
 
 /**

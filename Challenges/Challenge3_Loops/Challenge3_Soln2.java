@@ -1,5 +1,6 @@
-package Summer2021.Challenges.Challenge3_Loops;
+package Challenges.Challenge3_Loops;
 
+import java.util.Scanner;
 /**
  * C3.1: Write a program that prints out a square with side length 5 and #.
  *                  Something like this #####
@@ -46,8 +47,37 @@ package Summer2021.Challenges.Challenge3_Loops;
  *                                          *****
  *  
  *   Rules
-       1. Have variable names that make sense
-       2. Follow one convention systematically. If your brackets start on the next line as mine do, Do not change that
-       3. Try to make the code as concise as possible. Not the least line numbers but logically, as simple as it can be
-       4. Make the program funny or sarcastic bc why not. 
+1. Have variable names that make sense
+2. Follow one convention systematically. If your brackets start on the next line as mine do, Do not change that
+3. Try to make the code as concise as possible. Not the least line numbers but logically, as simple as it can be
+4. Make the program funny or sarcastic bc why not. 
  */
+public class Challenge3_Soln2
+{
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+
+         String option = "yes";
+        do
+        {
+            System.out.println("Enter a number");
+            System.out.println("Enter an operator");
+            int num1 = 5, num2 = 10;
+            char c = sc.nextLine().charAt(0); 
+            System.out.println("Enter another number");
+           
+                switch(c)
+                {
+                    case '+': System.out.println(num1+num2);
+                        break;
+                    case '-': System.out.println(num1-num2);
+                        break;
+                    default: System.out.println("WRONG");
+                        break;
+                }
+            System.out.println("Enter yes to continue");
+            option = sc.nextLine();
+        }while(option.equalsIgnoreCase("YES"));
+    }
+}

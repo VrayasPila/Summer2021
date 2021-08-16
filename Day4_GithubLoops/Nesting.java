@@ -9,27 +9,48 @@ package Day4_GithubLoops;
  */
 public class Nesting
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Nesting
-     */
-    public Nesting()
+    public static void main(String args[])
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+        //check if a number is divisible by 6
+        
+        int x = 1896;
+        
+        if( x%2 == 0 )
+        {
+            if( x%3 == 0)
+            {
+                System.out.println("Divisible by 6");
+            }
+            
+            if( x%5 == 0)
+            {
+                System.out.println("Divisible by 10");
+            }
+            
+             if( x%7 == 0)
+            {
+                System.out.println("Divisible by 14");
+            }
+        }
+        else if(x%100 == 0)
+        {
+            System.out.println("Divisible by 100");
+        }
+        
+        // AND && OR || 
+        
+        if(x%2==0 && x%3==0)
+        {
+            System.out.println("Divisible by 6");
+        }
+        
+        if(x%2==0 && x%5==0)
+        {
+            System.out.println("Divisible by 10");
+        }
+        
+        boolean b = false;
+        b = !b;
+        System.out.println(b);
     }
 }

@@ -10,7 +10,7 @@ import java.util.Scanner;
  * Use what we did in class today. To input numbers impor the Scanner class, and use Scanner.nextInt() to input numbers. Refer to challenge 1 for syntax
  * 
  * C2.2: Write a simple calculator that accepts a number from the user and based on this number decides wether to add, subtract, mult, divide or give
- * the remainder. Then accept 2 number from the user and perform the requested operation
+ * the remainder. Then accept 2 numbers from the user and perform the requested operation
  * 
  * (Opional) C2.3: Write a program that tells me what numbers from 1 to 7 divide a certain number. 
  *
@@ -27,6 +27,8 @@ public class C2_2_Rithwick
         System.out.println("Enter 1 for Addition, 2 for Substraction, 3 for Multiplication, 4 for Disvison, or 5 for Remainder");
         int operator = first.nextInt();
         //Checks what operator is selected
+        //enter num 1 and 2
+        //int num1 = first.nextInt();
         if (operator == 1) 
         {
             System.out.println("You have picked Addition");
@@ -104,7 +106,7 @@ public class C2_2_Rithwick
             int operator4 = operator2 % operator3;
             //Shows Output
             System.out.println("Your Remainder is " + operator4);
-        }else {
+        } else {
             System.out.println("Try again but only enter 1,2,3,4,or 5 next time");
         }
 

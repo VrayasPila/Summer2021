@@ -1,4 +1,4 @@
-package Summer2021.Challenges.Challenge3_Loops;
+package Challenges.Challenge3_Loops;
 
 /**
  * C3.1: Write a program that prints out a square with side length 5 and #.
@@ -51,3 +51,22 @@ package Summer2021.Challenges.Challenge3_Loops;
        3. Try to make the code as concise as possible. Not the least line numbers but logically, as simple as it can be
        4. Make the program funny or sarcastic bc why not. 
  */
+public class Challenge2_Soln
+{
+    public static void main(String args[])
+    {
+        for(int i = 0; i<5; i++)
+        {
+            System.out.println("#####");
+        }
+        
+        System.out.println();
+        
+        int j = 1;
+        while(j<=5)
+        {
+            System.out.println("#####");
+            j++;
+        }
+    }
+}

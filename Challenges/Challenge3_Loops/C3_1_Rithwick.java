@@ -1,5 +1,6 @@
 package Challenges.Challenge3_Loops;
 
+import java.util.Scanner;
 
 /**
  * C3.1: Write a challenge that prints out a square with side length 5 and #.
@@ -28,29 +29,20 @@ package Challenges.Challenge3_Loops;
        
  * (Optional) C3.3: TBA
  */
-public class C3_Rit
+public class C3_1_Rithwick
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Challenge3
-     */
-    public Challenge3()
+    public static void main(String args[])
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+        //Get ready for number to divide
+        Scanner first = new Scanner(System.in);
+        System.out.println("Enter how big you want your square");
+        int operator = first.nextInt();
+        int operator2 = operator + 1;
+        int operator3 = 1;
+        while (operator2 != operator3) {
+            System.out.println("#");
+            operator3 = operator3 + 1;
+        }
+        System.out.println("Square complete");
     }
 }

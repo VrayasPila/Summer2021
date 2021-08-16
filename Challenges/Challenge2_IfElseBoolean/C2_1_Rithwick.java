@@ -3,7 +3,6 @@ package Challenges.Challenge2_IfElseBoolean;
 import java.util.Scanner;
 
 
-
 /**
  * Since this challenge has multiple level, you can submit multiple files or the same file with clearly labeled parts for what code does what
  * 
@@ -22,21 +21,20 @@ public class C2_1_Rithwick
 {
     public static void main(String args[])
     {Scanner num1 = new Scanner(System.in);
-            // Asks what first number is desired
-            System.out.println("Enter your first number");
-            int operator2 = num1.nextInt();
-            // Asks what second number is desired
-            Scanner num2 = new Scanner(System.in);
-            System.out.println("Enter your second number");
-            int operator3 = num2.nextInt();
-            // does the operration
-            double operator4 = operator2 % operator3;
-            if (operator4 == 0) {
-  System.out.println(operator2 + " is divisible by " + operator3);
-} else {
-  System.out.println(operator2 + " is not divisible by " + operator3);
-}
-            
-        
+        // Asks what first number is desired
+        System.out.println("Enter your first number");
+        int operator2 = num1.nextInt();
+        // Asks what second number is desired
+        Scanner num2 = new Scanner(System.in);
+        System.out.println("Enter your second number");
+        int operator3 = num2.nextInt();
+        // does the operration
+        double operator4 = operator2 % operator3;
+        if (operator4 == 0) {
+            System.out.println(operator2 + " is divisible by " + operator3);
+        } else {
+            System.out.println(operator2 + " is not divisible by " + operator3);
+        }
+
     }
 }

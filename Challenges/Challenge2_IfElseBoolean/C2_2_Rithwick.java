@@ -3,7 +3,6 @@ package Challenges.Challenge2_IfElseBoolean;
 import java.util.Scanner;
 
 
-
 /**
  * Since this challenge has multiple level, you can submit multiple files or the same file with clearly labeled parts for what code does what
  * 

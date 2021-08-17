@@ -1,4 +1,4 @@
-package Challenges.Challenge2_IfElseBoolean;
+package Summer2021.Challenges.Challenge2_IfElseBoolean;
 
 import java.util.Scanner;
 /**
@@ -16,11 +16,11 @@ public class C21Vrayas
         int Num1 = sc.nextInt();
         System.out.println("Select another number");
         int Num2 = sc.nextInt();
-        
+       
         if( Num1 % Num2 <= 0)
         {
             System.out.println(Num1 + " is divisible by " + Num2);
-            
+           
         }
         else
         {

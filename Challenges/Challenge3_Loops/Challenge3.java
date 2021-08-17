@@ -1,4 +1,5 @@
 package Challenges.Challenge3_Loops;
+import java.util.Scanner;
 
 
 /**
@@ -31,26 +32,51 @@ package Challenges.Challenge3_Loops;
 public class Challenge3
 {
     // instance variables - replace the example below with your own
-    private int x;
+    public static void main(String args[]) {
+     //Code for Challenge 3
+     Scanner sc = new Scanner(System.in);
+     
+     System.out.println("Choose a number");
+     
+     int x = sc.nextInt();
+     
+     System.out.println("Select an operator + for addition, - for subtraction, * for multiplication, / for division");
+    
+     System.out.println("Choose a second number");
+     
+     int y = sc.nextInt();
+         
+         if (x + y ) {
+        
+         System.out.println("This number is divisible by y");
+        } 
+         else 
+            if  (x % y != 0) {
+            
+            System.out.println("This number is not divisible by y");
+            
+            
+            }
+    
+    
+    
+         
+         
 
-    /**
-     * Constructor for objects of class Challenge3
-     */
-    public Challenge3()
-    {
-        // initialise instance variables
-        x = 0;
+            
+        } 
+         
+         
+    
+    
+    
+         
+         
+         
+         
+        
+        
+
+    
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
-}

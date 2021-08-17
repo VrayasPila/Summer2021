@@ -1,6 +1,6 @@
 package Challenges.Challenge3_Loops;
-import java.util.Scanner;
 
+import java.util.Scanner;
 
 /**
  * C3.1: Write a challenge that prints out a square with side length 5 and #.
@@ -29,54 +29,20 @@ import java.util.Scanner;
        
  * (Optional) C3.3: TBA
  */
-public class Challenge3
+public class C3_1_Rithwick
 {
-    // instance variables - replace the example below with your own
-    public static void main(String args[]) {
-     //Code for Challenge 3
-     Scanner sc = new Scanner(System.in);
-     
-     System.out.println("Choose a number");
-     
-     int x = sc.nextInt();
-     
-     System.out.println("Select an operator + for addition, - for subtraction, * for multiplication, / for division");
-    
-     System.out.println("Choose a second number");
-     
-     int y = sc.nextInt();
-         
-         if (x + y ) {
-        
-         System.out.println("This number is divisible by y");
-        } 
-         else 
-            if  (x % y != 0) {
-            
-            System.out.println("This number is not divisible by y");
-            
-            
-            }
-    
-    
-    
-         
-         
-
-            
-        } 
-         
-         
-    
-    
-    
-         
-         
-         
-         
-        
-        
-
-    
+    public static void main(String args[])
+    {
+        //Get ready for number to divide
+        Scanner first = new Scanner(System.in);
+        System.out.println("Enter how big you want your square");
+        int operator = first.nextInt();
+        int operator2 = operator + 1;
+        int operator3 = 1;
+        while (operator2 != operator3) {
+            System.out.println("#");
+            operator3 = operator3 + 1;
+        }
+        System.out.println("Square complete");
     }
-
+}

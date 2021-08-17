@@ -1,5 +1,5 @@
 package Challenges.Challenge2_IfElseBoolean;
-
+import java.util.Scanner;
 
 /**
  * Since this challenge has multiple level, you can submit multiple files or the same file with clearly labeled parts for what code does what
@@ -18,7 +18,56 @@ package Challenges.Challenge2_IfElseBoolean;
 public class Challenge2
 {
     public static void main(String args[])
-    {
+    { 
+        //Code for Challenge Two
+         
+        Scanner sc = new Scanner(System.in);
+        
+         System.out.println("Select a number");
+         
+         int x = sc.nextInt();
+         
+         System.out.println("Select a new number");
+         
+         int y = sc.nextInt();
+         
+         if (x % y == 0) {
+        
+         System.out.println("This number is divisible by y");
+        } 
+         else 
+            if  (x % y != 0) {
+            
+            System.out.println("This number is not divisible by y");
+            
+            
+            }
+    
+    
+    
+         
+         
+
+            
+        } 
+         
+         
+    
+    
+    
+         
+         
+         
+         
+        
         
     }
-}
+    
+    
+
+
+
+
+
+
+

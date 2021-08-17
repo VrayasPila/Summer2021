@@ -1,7 +1,6 @@
-package Summer2021.Challenges.Challenge2_IfElseBoolean;
+package Challenges.Challenge2_IfElseBoolean;
 
 import java.util.Scanner;
-
 
 
 /**

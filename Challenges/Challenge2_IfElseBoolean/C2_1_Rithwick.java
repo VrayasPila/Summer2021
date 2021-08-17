@@ -1,4 +1,4 @@
-package Summer2021.Challenges.Challenge2_IfElseBoolean;
+package Challenges.Challenge2_IfElseBoolean;
 
 import java.util.Scanner;
 
@@ -20,8 +20,7 @@ import java.util.Scanner;
 public class C2_1_Rithwick
 {
     public static void main(String args[])
-    {
-        Scanner num1 = new Scanner(System.in);
+    {Scanner num1 = new Scanner(System.in);
         // Asks what first number is desired
         System.out.println("Enter your first number");
         int operator2 = num1.nextInt();

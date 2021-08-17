@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=C1_Soln
-comment0.text=\ Level\ 1\:\ Write\ a\ program\ that\ accepts\ 2\ numbers\ from\ the\ user\ and\ calculates\r\n\ the\ sum,\ difference,\ product\ and\ quotient\ and\ remainder\ of\ these\ numbers.\r\n\r\n\ I\ want\ you\ to\ use\ camelCase\r\n\ I\ want\ at\ least\ 2\ comments\r\n
+comment0.text=\ Level\ 1\:\ Write\ a\ program\ that\ accepts\ 2\ numbers\ from\ the\ user\ and\ calculates\n\ the\ sum,\ difference,\ product\ and\ quotient\ and\ remainder\ of\ these\ numbers.\n\n\ I\ want\ you\ to\ use\ camelCase\n\ I\ want\ at\ least\ 2\ comments\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2

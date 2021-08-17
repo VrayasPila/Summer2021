@@ -31,52 +31,27 @@ import java.util.Scanner;
  */
 public class Challenge3
 {
-    // instance variables - replace the example below with your own
-    public static void main(String args[]) {
-     //Code for Challenge 3
-     Scanner sc = new Scanner(System.in);
-     
-     System.out.println("Choose a number");
-     
-     int x = sc.nextInt();
-     
-     System.out.println("Select an operator + for addition, - for subtraction, * for multiplication, / for division");
+    //Challenge 3 part 2 
     
-     System.out.println("Choose a second number");
-     
-     int y = sc.nextInt();
-         
-         if (x + y ) {
-        
-         System.out.println("This number is divisible by y");
-        } 
-         else 
-            if  (x % y != 0) {
-            
-            System.out.println("This number is not divisible by y");
-            
-            
-            }
-    
-    
-    
-         
-         
+     public static void main(String args[]){
+          Scanner sc = new Scanner(System.in); 
+          System.out.println("Select a number");
+          int c = sc.nextInt();
+          System.out.println("Select a operator + for addition - for subtraction * for multiplication / for division");
+          
+          System.out.println ("select another number");
+          int d = sc.nextInt();
+          System.out.println ("Select another operator"); 
+          
 
-            
-        } 
+          
+          
          
-         
+     }
+     
+     
     
     
-    
-         
-         
-         
-         
-        
-        
 
-    
-    }
-
+ 
+}

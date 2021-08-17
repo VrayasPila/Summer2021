@@ -1,4 +1,5 @@
 package Challenges.Challenge3_Loops;
+import java.util.Scanner;
 
 
 /**
@@ -30,27 +31,27 @@ package Challenges.Challenge3_Loops;
  */
 public class Challenge3
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    //Challenge 3 part 2 
+    
+     public static void main(String args[]){
+          Scanner sc = new Scanner(System.in); 
+          System.out.println("Select a number");
+          int c = sc.nextInt();
+          System.out.println("Select a operator + for addition - for subtraction * for multiplication / for division");
+          
+          System.out.println ("select another number");
+          int d = sc.nextInt();
+          System.out.println ("Select another operator"); 
+          
 
-    /**
-     * Constructor for objects of class Challenge3
-     */
-    public Challenge3()
-    {
-        // initialise instance variables
-        x = 0;
-    }
+          
+          
+         
+     }
+     
+     
+    
+    
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+ 
 }

@@ -1,9 +1,9 @@
 #BlueJ package file
-objectbench.height=106
+objectbench.height=107
 objectbench.width=1258
 package.divider.horizontal=0.6
-package.divider.vertical=0.8217665615141956
-package.editor.height=514
+package.divider.vertical=0.8201892744479495
+package.editor.height=513
 package.editor.width=1170
 package.editor.x=0
 package.editor.y=106
@@ -34,5 +34,5 @@ target3.height=82
 target3.name=Challenge2_IfElseBoolean
 target3.type=PackageTarget
 target3.width=160
-target3.x=630
-target3.y=20
+target3.x=620
+target3.y=10

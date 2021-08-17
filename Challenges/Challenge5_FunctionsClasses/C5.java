@@ -20,7 +20,7 @@
               Have variable names that a third person can easily understand
               Leave comments and be prepared to explain our code.
               
-   IF YOU WANT PRACTICE FOR EVERYHING THAT I TAUGH IN CLASS THEN DO THIS PORTION
+***************** IF YOU WANT PRACTICE FOR EVERYHING THAT I TAUGH IN CLASS THEN DO THIS PORTION ELSE DONT EVEN READ ***********************
                Make another Class called IndividualCar. This should have all the information as he Car Class above but a few aditional things.
                IT shoud have car mileage, amount of fuel in the car(in miles i.e. how many more miles can the car run), miles run, and avg speed.
                It should have a drive method that takes in to input paramters, avg speed and time driven for. Then caculate how many miles the car
@@ -29,6 +29,8 @@
                                                                       avg speed < 60, Mileage = Mileage
                                                                       else Mileage = 0.8 * Mileage.
              Once you know the mileage, calculate how many miles of fuel is left in the car and update the varaible. Update the average speed variable
-             by averaging the last speed and the current speed. Keep asking the user if they drove the car some more and keep doing this if they did. 
+             by averaging the last speed and the current speed. Keep asking the user if they drove the car some more and keep doing this if they did.
+             
+             Make a class called Driver and show that all the methods work an test it for yourself. 
         
  */

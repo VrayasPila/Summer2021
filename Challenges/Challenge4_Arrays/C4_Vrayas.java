@@ -1,5 +1,5 @@
 package Challenges.Challenge4_Arrays;
-import java.util.Scanner;
+import java.util.Scanner; 
 
 /**
  * Write a description of class C4_Vrayas here.
@@ -59,7 +59,7 @@ public class C4_Vrayas
         
         if( SciSup < EngSup)
         {
-           int SupSE2 = Scisup;
+           int SupSE2 = SciSup;
         }
         else
         {

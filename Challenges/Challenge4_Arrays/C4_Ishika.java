@@ -1,5 +1,6 @@
 package Challenges.Challenge4_Arrays;
-import java.util.Scanner;
+
+import java.util.*;
 
 /**
  * You are the teacher in a class of 4 students. Each student has 5 classes Math, Science, English, and 2 electives in a day and he gets a grade for all of them.
@@ -10,46 +11,27 @@ import java.util.Scanner;
  *             Rules:
  *                  1. Use sensible names
  *                  2. Use arrays, Scanner, Math class methods
- *                  3. Leave atleast comments.
+ *                  3. Leave atleast 3 comments.
  *                  
  */
- public class Challenge4 {
-     public static void main (String args[])
-     {
-     //Code for Challenge 4    
-    Scanner sc = new Scanner(System.in); 
-    int[] K1 = {70, 75, 80, 85, 90};
-    //Math 70, Science 75, English 80, Band 85, Art 90
-    int[] K2 = {90, 85, 70, 65, 60};
-    //Math 90, Science 85, English 70, Orchestra 65, Choir 60
-    int K3; 
-    int K4;
-    System.out.println("Enter the grades for the third student");
-     K3 = sc.nextInt();
-    int []array = new int[5];
-    for(int i=0; i<K3; K3++)
+public class C4_Ishika {
+    public static void main (String args[])
+    {
+        //Code for Challenge 4    
+        Scanner sc = new Scanner(System.in); 
+        int[] K1 = {70, 75, 80, 85, 90};
+        //Math 70, Science 75, English 80, Band 85, Art 90
+        int[] K2 = {90, 85, 70, 65, 60};
+        //Math 90, Science 85, English 70, Orchestra 65, Choir 60
+        int[] K3 = new int[5]; // THIS CAN ONLY STORE 1 NUMBER
+        int K4;
+        System.out.println("Enter the grades for the third student");
+        int []array = new int[5];
+        
+        for(int i=0; i<5; i++)
+        {
+            K3[i] = sc.nextInt();
+        }
 
- }
+    }
 }
-    
-    
-    
-    
-
-    
-
-
-      
- 
-
-   
-   
-   
-   
-
-
-
-   
-   
-   
-

@@ -1,4 +1,4 @@
-package Summer2021.Day5_LoopsSwitch;
+package Day5_LoopsSwitch;
 
 
 /**

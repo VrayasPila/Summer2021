@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ @author\ ranais\r\n\ \r\n\ This\ class\ defines\ a\ student.\ You\ have\ access\ to\ his\ name,\ SID,\ classes\r\n
+comment1.params=studIDnum\ first\ last\ math\ sci\ eng
+comment1.target=Student(int,\ java.lang.String,\ java.lang.String,\ int,\ int,\ int)
+comment2.params=
+comment2.target=int\ getStudID()
+comment3.params=
+comment3.target=java.lang.String\ getStudLastName()
+numComments=4

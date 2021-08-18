@@ -25,7 +25,7 @@ public class Class1
      */
     public Class1()
     {
-       System.out.println(Folder1_1.Class1.class1public);
+       System.out.println(Class1.class1public);
     }
 
     /**
